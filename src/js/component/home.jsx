@@ -1,24 +1,33 @@
 import React from "react";
 
 //include images into your bundle
-import rigoImage from "../../img/rigo-baby.jpg";
 
 //create your first component
 const Home = () => {
 	return (
-		<div>
-			<h1 className="text-center mt-5">Hello Rigo!</h1>
-			<p>
-				<img src={rigoImage} />
-			</p>
-			<a href="#" className="btn btn-success">
-				If you see this green button... bootstrap is working...
+		<div className="container">
+			<h1 className="text-center mt-5">Steph´s to do list!</h1>
+
+			<div class="input-group mb-3">
+				<input
+					type="text"
+					class="form-control"
+					aria-label="Sizing example input"
+					aria-describedby="inputGroup-sizing-default"
+				/>
+			</div>
+
+			<a
+				href="#"
+				className="btn btn-success d-flex justify-content-center">
+				Save task!
 			</a>
-			<p>
-				Made by{" "}
-				<a href="http://www.4geeksacademy.com">4Geeks Academy</a>, with
-				love!
-			</p>
+			<div className="trex d-flex justify-content-center">
+				<img
+					src="https://creazilla-store.fra1.digitaloceanspaces.com/emojis/42676/t-rex-emoji-clipart-md.png"
+					alt=""
+				/>
+			</div>
 		</div>
 	);
 };
