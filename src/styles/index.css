@@ -10,3 +10,36 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+html {
+    background-color: black;
+    width: auto;
+    height: auto;
+}
+#app {
+    background-color: black;
+    width: auto;
+    height: auto;
+}
+h1{
+    font-size: 5rem;
+    font-family: fantasy;
+    background-color: rgb(7, 143, 148);
+}
+.input-group {
+    width: 50rem;
+    text-align: center;
+    margin-top: 5rem;
+    margin-left: 20%;
+    
+}
+.btn {
+    width: 50rem;
+    text-align: center;
+    margin-left: 20%;
+}
+
+img {
+    width: 15rem;
+}
+
+
